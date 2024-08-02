@@ -1,1 +1,5 @@
-.. openapi:: swagger.json
+.. _api:
+
+API Documentation
+=================
+.. openapi:: ../source/swagger.json

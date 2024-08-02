@@ -16,15 +16,19 @@ release = '0.1'
 
 extensions = [
     'sphinxcontrib.openapi',
+    'sphinx_rtd_theme'
 ]
 
 templates_path = ['_templates']
 exclude_patterns = []
+source_suffix = ['.rst']
+master_doc = 'index'
 
 language = 'python'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+openapi_spec = 'swagger.json'
