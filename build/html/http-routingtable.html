@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+
+<html lang="python" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP Routing Table &#8212; Researchment API 0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=12dfc556" />
+    <script src="_static/documentation_options.js?v=8cfa8c60"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+
+    <script>
+      DOCUMENTATION_OPTIONS.COLLAPSE_INDEX = true;
+    </script>
+
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+
+   <h1>HTTP Routing Table</h1>
+
+   <div class="modindex-jumpbox">
+   <a href="#cap-/accounts"><strong>/accounts</strong></a> | 
+   <a href="#cap-/chat"><strong>/chat</strong></a> | 
+   <a href="#cap-/feed"><strong>/feed</strong></a> | 
+   <a href="#cap-/notifications"><strong>/notifications</strong></a> | 
+   <a href="#cap-/posts"><strong>/posts</strong></a> | 
+   <a href="#cap-/profiles"><strong>/profiles</strong></a> | 
+   <a href="#cap-/search"><strong>/search</strong></a>
+   </div>
+
+   <table class="indextable modindextable">
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/accounts"><td></td><td>
+       <strong>/accounts</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-change-email-id-"><code class="xref">GET /accounts/change-email/{id}/</code></a></td><td>
+       <em>Change email</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-change-password-id-"><code class="xref">GET /accounts/change-password/{id}/</code></a></td><td>
+       <em>Change Password</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-friends-suggested-"><code class="xref">GET /accounts/friends/suggested/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-friends-id-"><code class="xref">GET /accounts/friends/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-me-"><code class="xref">GET /accounts/me/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--accounts-password-reset-id-"><code class="xref">GET /accounts/password-reset/{id}/</code></a></td><td>
+       <em>Reset Password</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-editpassword-"><code class="xref">POST /accounts/editpassword/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-editprofile-"><code class="xref">POST /accounts/editprofile/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-friends-id-request-"><code class="xref">POST /accounts/friends/{id}/request/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-friends-id-status-"><code class="xref">POST /accounts/friends/{id}/{status}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-login-"><code class="xref">POST /accounts/login/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-refresh-"><code class="xref">POST /accounts/refresh/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-request-email-change-"><code class="xref">POST /accounts/request-email-change/</code></a></td><td>
+       <em>Request an email change</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-request-password-change-"><code class="xref">POST /accounts/request-password-change/</code></a></td><td>
+       <em>Request a password change</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-request-password-reset-"><code class="xref">POST /accounts/request-password-reset/</code></a></td><td>
+       <em>Request password reset</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--accounts-signup-"><code class="xref">POST /accounts/signup/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/chat"><td></td><td>
+       <strong>/chat</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--chat-"><code class="xref">GET /chat/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--chat-id-"><code class="xref">GET /chat/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--chat-user_pk-get-or-create-"><code class="xref">GET /chat/{user_pk}/get-or-create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--chat-id-send-"><code class="xref">POST /chat/{id}/send/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/feed"><td></td><td>
+       <strong>/feed</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--feed-"><code class="xref">GET /feed/</code></a></td><td>
+       <em>
+The unified feed combines results from various models and returns them in a paginated format. 
+The response from the API contains the feed, page number, has_next, has_previous, and paginator_name.
+The feed object contains the id, model_name, and created_at fields.
+The model_name tells you what model it is fetched from so you can use the correct endpoint to fetch the full object.
+This feed is peculiar in that it returns two different sets of feed, a default feed which contains personalized content
+and a support feed which comes when the default is exhausted, they have different paginator names and numbers so when 
+has_next is false for the default, you should check the first page for the support feed.
+</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/notifications"><td></td><td>
+       <strong>/notifications</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--notifications-"><code class="xref">GET /notifications/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--notifications-read-id-"><code class="xref">POST /notifications/read/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/posts"><td></td><td>
+       <strong>/posts</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-"><code class="xref">GET /posts/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-answers-"><code class="xref">GET /posts/answers/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-answers-id-"><code class="xref">GET /posts/answers/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-articles-"><code class="xref">GET /posts/articles/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-articles-owner-id-"><code class="xref">GET /posts/articles/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-articles-id-"><code class="xref">GET /posts/articles/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-articles-id-delete-"><code class="xref">GET /posts/articles/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-articles-id-edit-"><code class="xref">GET /posts/articles/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-books-"><code class="xref">GET /posts/books/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-books-owner-id-"><code class="xref">GET /posts/books/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-books-id-"><code class="xref">GET /posts/books/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-books-id-delete-"><code class="xref">GET /posts/books/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-books-id-edit-"><code class="xref">GET /posts/books/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-chapters-"><code class="xref">GET /posts/chapters/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-chapters-owner-id-"><code class="xref">GET /posts/chapters/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-chapters-id-"><code class="xref">GET /posts/chapters/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-chapters-id-delete-"><code class="xref">GET /posts/chapters/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-chapters-id-edit-"><code class="xref">GET /posts/chapters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-papers-"><code class="xref">GET /posts/conference-papers/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-papers-owner-id-"><code class="xref">GET /posts/conference-papers/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-papers-id-"><code class="xref">GET /posts/conference-papers/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-papers-id-delete-"><code class="xref">GET /posts/conference-papers/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-papers-id-edit-"><code class="xref">GET /posts/conference-papers/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-posters-"><code class="xref">GET /posts/conference-posters/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-posters-owner-id-"><code class="xref">GET /posts/conference-posters/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-posters-id-"><code class="xref">GET /posts/conference-posters/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-posters-id-delete-"><code class="xref">GET /posts/conference-posters/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-conference-posters-id-edit-"><code class="xref">GET /posts/conference-posters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-contribution-item_type-item_id"><code class="xref">GET /posts/contribution/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-profile-id-"><code class="xref">GET /posts/profile/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-project-"><code class="xref">GET /posts/project/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-project-project_id-"><code class="xref">GET /posts/project/{project_id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-questions-"><code class="xref">GET /posts/questions/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-questions-id-"><code class="xref">GET /posts/questions/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-theses-"><code class="xref">GET /posts/theses/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-theses-owner-id-"><code class="xref">GET /posts/theses/owner/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-theses-id-"><code class="xref">GET /posts/theses/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-theses-id-delete-"><code class="xref">GET /posts/theses/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-theses-id-edit-"><code class="xref">GET /posts/theses/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-trends-"><code class="xref">GET /posts/trends/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--posts-id-"><code class="xref">GET /posts/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-answers-"><code class="xref">POST /posts/answers/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-answers-id-"><code class="xref">POST /posts/answers/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-articles-create-"><code class="xref">POST /posts/articles/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-books-create-"><code class="xref">POST /posts/books/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-chapters-create-"><code class="xref">POST /posts/chapters/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-conference-papers-create-"><code class="xref">POST /posts/conference-papers/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-conference-posters-create-"><code class="xref">POST /posts/conference-posters/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-contribution-item_type-item_id"><code class="xref">POST /posts/contribution/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-create-"><code class="xref">POST /posts/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-like-item_type-item_id"><code class="xref">POST /posts/like/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-project-"><code class="xref">POST /posts/project/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-project-project_id-"><code class="xref">POST /posts/project/{project_id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-questions-"><code class="xref">POST /posts/questions/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-questions-id-"><code class="xref">POST /posts/questions/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-theses-create-"><code class="xref">POST /posts/theses/create/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-unlike-item_type-item_id"><code class="xref">POST /posts/unlike/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-id-comment-"><code class="xref">POST /posts/{id}/comment/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-id-comment-edit-"><code class="xref">POST /posts/{id}/comment/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-id-like-"><code class="xref">POST /posts/{id}/like/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--posts-id-report-"><code class="xref">POST /posts/{id}/report/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-answers-"><code class="xref">PUT /posts/answers/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-answers-id-"><code class="xref">PUT /posts/answers/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-articles-id-edit-"><code class="xref">PUT /posts/articles/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-books-id-edit-"><code class="xref">PUT /posts/books/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-chapters-id-edit-"><code class="xref">PUT /posts/chapters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-conference-papers-id-edit-"><code class="xref">PUT /posts/conference-papers/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-conference-posters-id-edit-"><code class="xref">PUT /posts/conference-posters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-contribution-item_type-item_id"><code class="xref">PUT /posts/contribution/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-project-"><code class="xref">PUT /posts/project/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-project-project_id-"><code class="xref">PUT /posts/project/{project_id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-questions-"><code class="xref">PUT /posts/questions/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-questions-id-"><code class="xref">PUT /posts/questions/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-theses-id-edit-"><code class="xref">PUT /posts/theses/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--posts-id-edit"><code class="xref">PUT /posts/{id}/edit</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-answers-"><code class="xref">DELETE /posts/answers/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-answers-id-"><code class="xref">DELETE /posts/answers/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-articles-id-delete-"><code class="xref">DELETE /posts/articles/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-books-id-delete-"><code class="xref">DELETE /posts/books/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-chapters-id-delete-"><code class="xref">DELETE /posts/chapters/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-conference-papers-id-delete-"><code class="xref">DELETE /posts/conference-papers/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-conference-posters-id-delete-"><code class="xref">DELETE /posts/conference-posters/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-contribution-item_type-item_id"><code class="xref">DELETE /posts/contribution/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-like-item_type-item_id"><code class="xref">DELETE /posts/like/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-project-"><code class="xref">DELETE /posts/project/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-project-project_id-"><code class="xref">DELETE /posts/project/{project_id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-questions-"><code class="xref">DELETE /posts/questions/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-questions-id-"><code class="xref">DELETE /posts/questions/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-theses-id-delete-"><code class="xref">DELETE /posts/theses/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-unlike-item_type-item_id"><code class="xref">DELETE /posts/unlike/{item_type}/{item_id}</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--posts-id-delete-"><code class="xref">DELETE /posts/{id}/delete/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-articles-id-edit-"><code class="xref">PATCH /posts/articles/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-books-id-edit-"><code class="xref">PATCH /posts/books/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-chapters-id-edit-"><code class="xref">PATCH /posts/chapters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-conference-papers-id-edit-"><code class="xref">PATCH /posts/conference-papers/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-conference-posters-id-edit-"><code class="xref">PATCH /posts/conference-posters/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-theses-id-edit-"><code class="xref">PATCH /posts/theses/{id}/edit/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#patch--posts-id-edit"><code class="xref">PATCH /posts/{id}/edit</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/profiles"><td></td><td>
+       <strong>/profiles</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-certification-"><code class="xref">GET /profiles/certification/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-certification-cid-"><code class="xref">GET /profiles/certification/{cid}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-education-"><code class="xref">GET /profiles/education/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-education-id-"><code class="xref">GET /profiles/education/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-interest-"><code class="xref">GET /profiles/interest/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-interest-id-"><code class="xref">GET /profiles/interest/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-me-"><code class="xref">GET /profiles/me/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-membership-"><code class="xref">GET /profiles/membership/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-membership-id-"><code class="xref">GET /profiles/membership/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-resume-"><code class="xref">GET /profiles/resume/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-skill-"><code class="xref">GET /profiles/skill/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-skill-id-"><code class="xref">GET /profiles/skill/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-work-"><code class="xref">GET /profiles/work/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--profiles-work-id-"><code class="xref">GET /profiles/work/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-certification-"><code class="xref">POST /profiles/certification/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-certification-cid-"><code class="xref">POST /profiles/certification/{cid}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-education-"><code class="xref">POST /profiles/education/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-education-id-"><code class="xref">POST /profiles/education/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-interest-"><code class="xref">POST /profiles/interest/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-interest-id-"><code class="xref">POST /profiles/interest/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-membership-"><code class="xref">POST /profiles/membership/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-membership-id-"><code class="xref">POST /profiles/membership/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-resume-"><code class="xref">POST /profiles/resume/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-skill-"><code class="xref">POST /profiles/skill/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-skill-id-"><code class="xref">POST /profiles/skill/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-work-"><code class="xref">POST /profiles/work/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#post--profiles-work-id-"><code class="xref">POST /profiles/work/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-certification-"><code class="xref">PUT /profiles/certification/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-certification-cid-"><code class="xref">PUT /profiles/certification/{cid}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-education-"><code class="xref">PUT /profiles/education/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-education-id-"><code class="xref">PUT /profiles/education/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-interest-"><code class="xref">PUT /profiles/interest/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-interest-id-"><code class="xref">PUT /profiles/interest/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-me-"><code class="xref">PUT /profiles/me/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-membership-"><code class="xref">PUT /profiles/membership/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-membership-id-"><code class="xref">PUT /profiles/membership/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-skill-"><code class="xref">PUT /profiles/skill/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-skill-id-"><code class="xref">PUT /profiles/skill/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-work-"><code class="xref">PUT /profiles/work/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#put--profiles-work-id-"><code class="xref">PUT /profiles/work/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-certification-"><code class="xref">DELETE /profiles/certification/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-certification-cid-"><code class="xref">DELETE /profiles/certification/{cid}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-education-"><code class="xref">DELETE /profiles/education/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-education-id-"><code class="xref">DELETE /profiles/education/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-interest-"><code class="xref">DELETE /profiles/interest/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-interest-id-"><code class="xref">DELETE /profiles/interest/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-membership-"><code class="xref">DELETE /profiles/membership/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-membership-id-"><code class="xref">DELETE /profiles/membership/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-resume-"><code class="xref">DELETE /profiles/resume/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-skill-"><code class="xref">DELETE /profiles/skill/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-skill-id-"><code class="xref">DELETE /profiles/skill/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-work-"><code class="xref">DELETE /profiles/work/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#delete--profiles-work-id-"><code class="xref">DELETE /profiles/work/{id}/</code></a></td><td>
+       <em>null</em></td></tr>
+     <tr class="pcap"><td></td><td>&#160;</td><td></td></tr>
+     <tr class="cap" id="cap-/search"><td></td><td>
+       <strong>/search</strong></td><td></td></tr>
+     <tr>
+       <td></td>
+       <td>
+       <a href="index.html#get--search-"><code class="xref">GET /search/</code></a></td><td>
+       <em>null</em></td></tr>
+   </table>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Researchment API</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, firebreather.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

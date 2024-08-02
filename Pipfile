@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "==3.6.0"
+django = "==4.2.1"
+django-cors-headers = "==3.14.0"
+djangorestframework = "==3.14.0"
+djangorestframework-simplejwt = "==5.2.2"
+pillow = "==9.5.0"
+pyjwt = "==2.6.0"
+pytz = "==2023.3"
+sqlparse = "==0.4.3"
+psycopg = "*"
+psycopg2 = "*"
+drf-yasg = "*"
+gunicorn = "*"
+whitenoise = "*"
+django-storages = "*"
+boto3 = "*"
+nltk = "*"
+django-taggit = "*"
+scikit-learn = "*"
+django-jazzmin = "*"
+channels = {extras = ["redis"], version = "*"}
+channels-redis = "*"
+celery = "*"
+redis = "*"
+cloudinary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
